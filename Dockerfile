@@ -1,6 +1,6 @@
 FROM dok3r/diamond:v3.7
 
-ENV ULX3S_URL=https://github.com/alpin3/ulx3s/releases/download/v2019.12.30/ulx3s-2019.12.30-linux-x86_64.tar.gz \
+ENV ULX3S_URL=https://github.com/alpin3/ulx3s/releases/download/v2020.02.11/ulx3s-2020.02.11-linux-x86_64.tar.gz \
  PATH=/opt/ulx3s/bin:$PATH
 
 RUN yum update -y ; \
